@@ -20,6 +20,8 @@ Example 2:
 # Solution 
 # 1st Approach
 ``` C++ 
+#include <bits/stdc++.h>
+using namespace std;
 void rearrange(int n , vector<int>& arr){
     sort(arr.begin() , arr.end());
     vector<int> temp(n);
@@ -51,6 +53,8 @@ int main() {
 # Solution 
 # 2nd Approach
 ``` C++
+#include <bits/stdc++.h>
+using namespace std;
 void rearrange(int n , vector<int>& arr){
       sort(arr.begin() , arr.end());
       vector<int> firsthalf(arr.begin() , arr.begin()+ n/2);
