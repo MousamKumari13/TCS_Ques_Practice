@@ -24,6 +24,8 @@ Example 2:
 
 Explanation: Rotate the array to right by 3 elements.
 
+# Question practice Link - https://leetcode.com/problems/rotate-array/description/
+
 # Solution
 ```C++
 #include <bits/stdc++.h>
