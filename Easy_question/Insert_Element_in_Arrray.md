@@ -53,7 +53,7 @@ int main() {
 ```
 # Complexity
 Time Complexity: O(n)
-Space Complexity: O(n)
+Space Complexity: o(n)
 
 
 
