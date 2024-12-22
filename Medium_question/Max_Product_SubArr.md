@@ -25,7 +25,7 @@ Example 2:
 # Problem Link ->
 https://www.naukri.com/code360/problems/subarray-with-maximum-product_6890008?utm_source=striver&utm_medium=website&utm_campaign=codestudio_a_zcourse
 
-# Solution (Brut force Approach)
+# Solution (Brute force Approach)
 ```C++
 
 #include <bits/stdc++.h>
