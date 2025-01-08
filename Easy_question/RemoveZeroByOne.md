@@ -44,3 +44,34 @@ int main()
 # Complexity:
 Time Complexity: Still O(n) since we iterate through the string once.
 Space Complexity: Still O(n) for storing the result.
+
+# 2nd Solution 
+```c++
+
+#include <bits/stdc++.h>
+using namespace std;
+void removeZeroByOne(int n){
+    int result = 0 , place = 1;
+  while(n > 0){
+      int dig = n %10;
+      if(dig == 0){
+          dig = 1;
+      }
+      result += dig * place;
+      place *= 10;
+      n /= 10;
+  } 
+  cout<<result;
+  
+}
+int main()
+{
+   int num;
+   cin>>num;
+   removeZeroByOne(num);
+    return 0;
+}
+```
+# Complexity:
+Time Complexity: Still O(n) since we iterate through the string once.
+Space Complexity: Still O(n) for storing the result.
