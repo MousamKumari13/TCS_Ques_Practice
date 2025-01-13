@@ -62,4 +62,6 @@ int main()
 ```
 # Complexity
  Time Complexity:```O(n)```We loop through the array once to calculate the maximum difference.
+
+ 
 Space Complexity:```O(1)```: We only use a few extra variables (min_so_far and max_diff), so the space complexity is constant.
