@@ -29,18 +29,25 @@ The nearest multiple is
 ```C++
 #include <bits/stdc++.h>
 using namespace std;
-void nearestMul(int x , int y){
-    int nearstval = ceil(x+y-1)/y;
-    int nerstmul = nearstval * y;
+
+ void nearestMul(int x , int y){
+    double quotient = (double)x/y;
+    cout <<quotient<<endl;
     
-    cout<<nerstmul<<endl;
+    double val = quotient- floor(quotient);
     
+    if(val >= 0.5){
+        cout<<ceil(quotient)*y<<endl;
+    }else{
+        cout<<floor(quotient)*y<<endl;
+    }
 }
 int main()
 {
-    int x , y;
+     int x , y;
     cin>>x>>y;
     nearestMul(x,y);
+
     return 0;
 }
 ```
