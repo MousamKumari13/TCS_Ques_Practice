@@ -59,7 +59,7 @@ After removing adjacent duplicates string will be “a”
 https://www.naukri.com/code360/problems/remove-consecutive-duplicates_893195?topList=tcs-interview-questions&problemListRedirection=true&leftPanelTabValue=PROBLEM&count=25&page=1&search=&sort_entity=order&sort_order=ASC&customSource=studio_nav
 
 # Solution
-```
+```C++
 #include <bits/stdc++.h>
 using namespace std;
 
