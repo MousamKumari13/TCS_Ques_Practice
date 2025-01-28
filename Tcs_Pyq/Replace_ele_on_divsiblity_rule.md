@@ -34,7 +34,8 @@ Print other numbers as they are.
 ```plaintext
 Three Five ThreeFive 7 Three
 ```
-
+## problem link same type for practice->
+https://leetcode.com/problems/fizz-buzz/description/
 ---
 
 ## Solution
